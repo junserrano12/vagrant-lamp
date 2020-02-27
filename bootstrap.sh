@@ -13,7 +13,7 @@ sudo apt-get update
 # install apache 2.5 and php 5.5
 sudo apt-get install -y apache2
 
-# install PHP 
+# install PHP
 sudo apt-get install -y php7.2
 
 # PHP mod
@@ -52,7 +52,7 @@ sudo debconf-set-selections <<< "phpmyadmin phpmyadmin/mysql/admin-pass password
 sudo debconf-set-selections <<< "phpmyadmin phpmyadmin/mysql/app-pass password $PASSWORD"
 sudo debconf-set-selections <<< "phpmyadmin phpmyadmin/reconfigure-webserver multiselect apache2"
 sudo apt-get install -y phpmyadmin
-sudo apt-get install -y php-mbstring 
+sudo apt-get install -y php-mbstring
 sudo apt-get install -y php-gettext
 
 # restart apache2

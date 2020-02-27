@@ -9,3 +9,7 @@
 - set vhosts sites -> sites-available
 - install apache2.4, php 7.2, mysql, phpmyadmin, git and composer
 - set mysql phpmyadmin
+
+# add to hosts file
+192.168.33.22 default.local www.default.local
+192.168.33.22 example.com www.example.com
