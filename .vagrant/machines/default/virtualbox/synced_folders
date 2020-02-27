@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/":{"guestpath":"/var/www","hostpath":"/Users/jun/projects/project-jun/vagrant/lamp/www","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/jun/projects/project-jun/vagrant/lamp","disabled":false,"__vagrantfile":true}}}
