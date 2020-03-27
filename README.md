@@ -13,3 +13,9 @@
 # add to hosts file
 192.168.33.22 default.local www.default.local
 192.168.33.22 example.com www.example.com
+
+# fix phpmyadmin warning
+$ /usr/share/phpmyadmin/libraries/sql.lib.php
+line: 601
+|| (count($analyzed_sql_results[‘select_expr’] == 1)
+|| (count($analyzed_sql_results[‘select_expr’]) == 1
