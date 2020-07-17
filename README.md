@@ -18,4 +18,13 @@
 $ /usr/share/phpmyadmin/libraries/sql.lib.php
 line: 601
 || (count($analyzed_sql_results[‘select_expr’] == 1)
+
 || (count($analyzed_sql_results[‘select_expr’]) == 1
+
+
+#fix phpmyadmin
+$ /usr/share/phpmyadmin/libraries/plugin_interface.lib.php
+line: 532
+if ($options != null && count($options) > 0) {
+
+if ($options != null && count((array)$options) > 0) {
